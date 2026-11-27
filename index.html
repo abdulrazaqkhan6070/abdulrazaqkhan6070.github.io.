@@ -144,6 +144,16 @@ footer{border-top:1px solid var(--line);padding:1.5rem 0;color:var(--muted);font
     <div class="wrap">
       <h2>Projects</h2>
       <div class="proj">
+        <article class="card">
+          <h3>GuardX - AI Security Agent (Real-Time Computer Vision + RAG)</h3>
+          <p class="stack">Python, FastAPI, YOLOv8, OpenCV, LangGraph, LangChain, ChromaDB, PostgreSQL, Ollama, Next.js, TypeScript, Docker</p>
+          <ul>
+            <li>Detects and tracks people from a live phone camera and raises an alert and an AI incident report when someone enters a restricted zone.</li>
+            <li>Tuned YOLOv8 detection for low-quality cameras and dim lighting, and fixed the LangGraph incident workflow so unauthorized entries are rated HIGH severity.</li>
+            <li>Incident reports use RAG over security policies in ChromaDB with a local Ollama LLM. The full stack runs in Docker Compose.</li>
+          </ul>
+          <p class="links"><a href="https://github.com/abdulrazaqkhan6070/guardx-ai-security-agent">View code on GitHub</a></p>
+        </article>
                 <article class="card">
           <h3>University Course Advisor (AI Chatbot)</h3>
           <p class="stack">Python, FastAPI, WebSockets, Gemini, Function Calling, RAG, ChromaDB</p>
